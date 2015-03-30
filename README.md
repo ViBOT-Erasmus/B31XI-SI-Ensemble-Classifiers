@@ -3,7 +3,7 @@
 **Table-of-contents**
 
 * [Dependencies](#dependencies)
-* [Probabilistic classifiers](#probabilistic-classifiers)
+* [Ensemble classifiers](#ensemble-classifiers)
 * [To perform the practise](#to-perform-the-practise)
 
 More description is given in the subsections.
@@ -20,23 +20,26 @@ In order to use the Ipython Notebook, the following dependencies are needed:
 * Matplotlib - `sudo apt-get install python-matplotlib`
 * Mpld3 - `sudo pip install mpld3`
 * Scikit-learn - `sudo apt-get install python-sklearn`
-* Scikit-image - `sudo apt-get install python-skimage`
 
 We strongly recommend to use a Linux environment to perform this practise.
 
-## Probabilistic classifiers
+## Ensemble classifiers
 
-### Euclidean and Mahalanobis distances
+### AdaBoost
 
-Comparison of [Euclidean distance](http://en.wikipedia.org/wiki/Euclidean_distance) and [Mahalanobis distance](http://en.wikipedia.org/wiki/Mahalanobis_distance).
+In order to ease the practise, you will go step by step to implement AdaBoost:
 
-### Logistic regression for classification
+* Get the principle of information gain,
+* Implement a simple decision stump classifier,
+* Finally, implement AdaBoost with the decision stump as weak learner.
 
-Implementation of a [logistic regression classifier](http://en.wikipedia.org/wiki/Logistic_regression) through gradient descent.
+### Random Forest
 
-### Naive Bayes' classifier
+In the way as with AdaBoost, you will go step by step:
 
-Naive Bayes' classifier with understanding of Maximum Likelihood (ML) and Maximum *a-posteriori* (MAP). This classifier to segment vessels in retina images.
+* First, you will try the decision tree and test the parameter allowing to select a subset for training at each node of the tree,
+* Then, understand the principle of bagging,
+* Finally, apply this two random principle to implement the Random Forest classifier.
 
 ## To perform the practise
 
@@ -57,7 +60,7 @@ Enter the following command in a terminal `ipython notebook`.
 
 This command should run the server locally via your default web browser and you will be able to play with the notebook.
 
-If you are just curious to see what the ipython notebook look like, you can view it [there](http://nbviewer.ipython.org/github/ViBOT-Erasmus/B31XI-SI-Probabilistic-Classifiers/blob/master/04-probabilistic-classifiers.ipynb).
+If you are just curious to see what the ipython notebook look like, you can view it [there](http://nbviewer.ipython.org/github/ViBOT-Erasmus/B31XI-SI-Ensemble-Classifiers/blob/master/06-ensemble-classifiers.ipynb).
 
 Enjoy!!!
 
