@@ -25,6 +25,10 @@ We strongly recommend to use a Linux environment to perform this practise.
 
 ## Ensemble classifiers
 
+
+The following module of the framework will be studied:
+![Alt text](./readme-images/pr-framework-fc.png)
+
 ### AdaBoost
 
 In order to ease the practise, you will go step by step to implement AdaBoost:
